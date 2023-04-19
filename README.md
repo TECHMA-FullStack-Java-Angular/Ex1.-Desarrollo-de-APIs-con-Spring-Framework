@@ -78,7 +78,7 @@ En esta primera fase de proyecto el alumno ha de realizar una  API REST completa
 
  Además de de lo mencionado anteriormente el alumno ha de incluir la siguiente funcionalidad: 
 
-- [] H2
+- [X] H2
 - [] JPA
 - [] Relaciones necesarias
 - [] CRUD de los diferentes modelos.
