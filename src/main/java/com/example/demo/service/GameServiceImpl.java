@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.dao.IGameDao;
 import com.example.demo.dto.Game;
+import com.example.demo.dto.Party;
 
 @Service
 public class GameServiceImpl implements IGameService {
@@ -44,4 +45,11 @@ public class GameServiceImpl implements IGameService {
 		
 	}
 
+	@Override
+	public List<Party> findParty(Game game) {
+
+		return game.getParties();
+		
+
+	}
 }

@@ -3,6 +3,7 @@ package com.example.demo.service;
 import java.util.List;
 
 import com.example.demo.dto.Game;
+import com.example.demo.dto.Party;
 
 
 
@@ -19,5 +20,7 @@ public interface IGameService {
 	public Game updateGame(Game game); // UPDATE
 	
 	public void deleteGame(int id);//  DELETE
-
+	
+	
+	public List<Party> findParty(Game game);
 }

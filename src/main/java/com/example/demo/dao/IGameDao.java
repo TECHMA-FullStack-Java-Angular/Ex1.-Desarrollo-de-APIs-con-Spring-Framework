@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.example.demo.dto.Game;
 
-public interface IGameDao  extends JpaRepository<Game, Integer>{
+public interface IGameDao extends JpaRepository<Game, Integer> {
 
 }
