@@ -19,7 +19,13 @@ Los requisitos funcionales de la aplicación son los siguientes:
 
 - RF.3  Los usuarios pueden entrar y salir de una Party. 
 
+POST
+/api/join - Join a party
+
 <img width="481" alt="image" src="https://user-images.githubusercontent.com/110301198/233192699-d7197899-a5c3-4c1a-aaca-a430ffc61126.png">
+
+DELETE
+/join/{id} - exit a party
 
 
 
