@@ -50,7 +50,9 @@ DELETE
 
 - RF.5  Los mensajes que existan en una Party se tienen que visualizar como un chat común. 
 
+GET
 
+/message/party/{id} - show messages from party
 
 - RF.6 Los usuarios pueden introducir y modiﬁcar sus datos de perﬁl, por ejemplo, su usuario de Steam. 
 <img width="499" alt="image" src="https://user-images.githubusercontent.com/110301198/233175000-0e1136b0-de45-4078-b49e-a903e0a72b62.png">
