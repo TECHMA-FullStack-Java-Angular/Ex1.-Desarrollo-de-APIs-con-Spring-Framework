@@ -11,11 +11,47 @@ Una primera fase de este proyecto es crear una aplicación web LFG, que permita 
 Los requisitos funcionales de la aplicación son los siguientes: 
 
 - RF.1   Los   usuarios  tienen  que  poder  crear  Partídas  (grupos)  para  un determinado videojuego.
+<img width="524" alt="image" src="https://user-images.githubusercontent.com/110301198/233160213-20bb9fdc-5d70-4e7a-ad3b-cd8136507df3.png">
+
 - RF.2  Los  usuarios  tienen  que  poder  buscar  Partídas  seleccionando  un videojuego.
+
+
 - RF.3  Los usuarios pueden entrar y salir de una Party. 
+
+
 - RF.4  Los  usuarios  tienen  que  poder  enviar  mensajes  a  la  Party. Estos mensajes tienen que poder ser editados y borrados por su usuario creador. 
+<img width="462" alt="image" src="https://user-images.githubusercontent.com/110301198/233177580-1b90590c-440f-4a83-a5e9-699156c7efe8.png">
+
+
+GET
+/api/message - View all messages
+
+POST
+/api/message - edit message by body
+
+DELETE
+/message/{id} - delete message by id
+
+
 - RF.5  Los mensajes que existan en una Party se tienen que visualizar como un chat común. 
+
+
+
 - RF.6 Los usuarios pueden introducir y modiﬁcar sus datos de perﬁl, por ejemplo, su usuario de Steam. 
+<img width="499" alt="image" src="https://user-images.githubusercontent.com/110301198/233175000-0e1136b0-de45-4078-b49e-a903e0a72b62.png">
+
+
+POST
+
+/api/user - Create new user
+
+PUT
+
+/api/user/{id} - update user
+
+DELETE
+
+/api/user/{id} - Delete user
 
 Ejemplo de frontal: 
 <img width="431" alt="image" src="https://user-images.githubusercontent.com/110301198/232996140-8d352ce9-0ebf-44c7-bc91-6471789ce3fb.png">
