@@ -19,6 +19,9 @@ Los requisitos funcionales de la aplicación son los siguientes:
 
 - RF.3  Los usuarios pueden entrar y salir de una Party. 
 
+<img width="481" alt="image" src="https://user-images.githubusercontent.com/110301198/233192699-d7197899-a5c3-4c1a-aaca-a430ffc61126.png">
+
+
 
 - RF.4  Los  usuarios  tienen  que  poder  enviar  mensajes  a  la  Party. Estos mensajes tienen que poder ser editados y borrados por su usuario creador. 
 <img width="462" alt="image" src="https://user-images.githubusercontent.com/110301198/233177580-1b90590c-440f-4a83-a5e9-699156c7efe8.png">
