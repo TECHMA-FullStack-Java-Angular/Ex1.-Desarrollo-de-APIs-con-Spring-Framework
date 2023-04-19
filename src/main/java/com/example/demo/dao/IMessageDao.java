@@ -10,6 +10,6 @@ import com.example.demo.dto.Message;
 
 public interface IMessageDao extends JpaRepository<Message, Integer>{
 	
-	public List<Message> findPartyMessageById(int partyId);
+	public List<Message> findMessagePartyById(int partyId);
 
 }

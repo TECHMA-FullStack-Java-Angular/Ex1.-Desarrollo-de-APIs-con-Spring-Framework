@@ -30,7 +30,7 @@ public class MessageController {
 	
 	@GetMapping("/message/{id}")
 	public List<Message> showPartyMessagesById(@PathVariable(name = "id") int id){
-		return messageService.findPartyMessageById(id);
+		return messageService.findMessagePartyById(id);
 		
 	}
 
