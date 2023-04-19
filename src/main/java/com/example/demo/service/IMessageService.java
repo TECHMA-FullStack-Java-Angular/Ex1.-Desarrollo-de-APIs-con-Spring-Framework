@@ -19,6 +19,6 @@ public interface IMessageService {
 
 	public void deleteMessage(int id);// DELETE
 	
-	
+	public List<Message> findPartyMessageById(int partyId); //get party messages
 
 }

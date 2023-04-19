@@ -47,4 +47,10 @@ public class PartyServiceImpl implements IPartyService{
 		
 	}
 
+	@Override
+	public List<Party> findByGameId(int gameId) {
+		
+		return iParty.findByGameId(gameId);
+	}
+
 }

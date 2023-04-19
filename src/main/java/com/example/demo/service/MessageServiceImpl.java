@@ -44,4 +44,10 @@ public class MessageServiceImpl implements IMessageService{
 		return iMessage.findById(id).get();
 	}
 
+	@Override
+	public List<Message> findPartyMessageById(int partyId) {
+		
+		return iMessage.findPartyMessageById(partyId);
+	}
+
 }

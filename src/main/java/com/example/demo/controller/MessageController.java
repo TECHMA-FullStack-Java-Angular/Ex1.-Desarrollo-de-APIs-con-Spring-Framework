@@ -27,6 +27,12 @@ public class MessageController {
 	public List<Message> listarPieza() {
 		return messageService.showMessages();
 	}
+	
+	@GetMapping("/message/{id}")
+	public List<Message> showPartyMessagesById(@PathVariable(name = "id") int id){
+		return messageService.findPartyMessageById(id);
+		
+	}
 
 	@PostMapping("/message")
 	public Message createMessage(@RequestBody Message message) {

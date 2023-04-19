@@ -21,6 +21,6 @@ public interface IPartyService {
 			
 			public void deleteParty(int id);//  DELETE
 			
-			
+			public List<Party> findByGameId(int gameId);//get party by game
 
 }
