@@ -32,4 +32,16 @@ public class JoinServiceImpl implements IJoinService{
 		
 	}
 
+	@Override
+	public Join findJoin(int id) {
+		
+		return iJoin.findById(id).get();
+	}
+
+	@Override
+	public Join updateJoin(Join join) {
+		
+		return iJoin.save(join);
+	}
+
 }

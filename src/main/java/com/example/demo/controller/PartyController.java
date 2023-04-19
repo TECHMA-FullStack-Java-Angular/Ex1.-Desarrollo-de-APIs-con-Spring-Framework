@@ -37,6 +37,7 @@ public class PartyController {
 
 	@GetMapping("/party/{game}")
 	public List<Party> findParty(@PathVariable(name = "game") Game game) {
+		Game finder = new Game();
 
 		return game.getParties();
 	}

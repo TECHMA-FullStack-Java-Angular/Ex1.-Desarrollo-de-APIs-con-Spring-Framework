@@ -14,9 +14,9 @@ public interface IJoinService {
 	
 	public Join createJoin(Join join);	//CREATE 
 	
-//	public Join findJoin(int id); // READ
-//	
-//	public Join updateJoin(Join join); // UPDATE
+	public Join findJoin(int id); // READ
+	
+	public Join updateJoin(Join join); // UPDATE
 	
 	public void deleteJoin(int id);//  DELETE
 

@@ -18,5 +18,7 @@ public interface IMessageService {
 	public Message updateMessage(Message message); // UPDATE
 
 	public void deleteMessage(int id);// DELETE
+	
+	
 
 }

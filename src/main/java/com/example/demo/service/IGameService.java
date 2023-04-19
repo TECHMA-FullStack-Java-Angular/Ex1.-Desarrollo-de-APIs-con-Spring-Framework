@@ -22,5 +22,5 @@ public interface IGameService {
 	public void deleteGame(int id);//  DELETE
 	
 	
-	public List<Party> findParty(Game game);
+	public List<Party> findParty(Game game); 
 }

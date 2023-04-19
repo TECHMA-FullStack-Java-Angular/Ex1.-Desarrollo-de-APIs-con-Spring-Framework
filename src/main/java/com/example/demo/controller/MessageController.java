@@ -44,6 +44,7 @@ public class MessageController {
 
 		selectedMessage.setMessage(message.getMessage());
 		selectedMessage.setDate(message.getDate());
+		
 
 		updatedMessage = messageService.updateMessage(selectedMessage);
 
