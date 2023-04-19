@@ -16,6 +16,11 @@ Los requisitos funcionales de la aplicación son los siguientes:
 
 - RF.2  Los  usuarios  tienen  que  poder  buscar  Partídas  seleccionando  un videojuego.
 
+GET /api/party/game/3  - Find a party by game
+
+<img width="444" alt="image" src="https://user-images.githubusercontent.com/110301198/233206516-9b86764a-30a6-44e6-b951-7b79d9a5d962.png">
+
+
 
 - RF.3  Los usuarios pueden entrar y salir de una Party. 
 
