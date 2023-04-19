@@ -1,5 +1,6 @@
 # Ex1.Prueba_tecnica: Desarrollo de APIs con Spring Framework
 
+
 1.    Introducción
 En el presente proyecto del Bootcamp Full Stack correspondiente a la parte Spring Framework se espera que el alumno demuestre todos los conocimientos adquiridos en desarrollo de APIs. 
 
@@ -53,13 +54,11 @@ DELETE
 
 /api/user/{id} - Delete user
 
-Ejemplo de frontal: 
-<img width="431" alt="image" src="https://user-images.githubusercontent.com/110301198/232996140-8d352ce9-0ebf-44c7-bc91-6471789ce3fb.png">
-<img width="426" alt="image" src="https://user-images.githubusercontent.com/110301198/232996295-4db00bee-65da-4f85-86cc-7b77281b7c34.png">
+
 
 En esta primera fase de proyecto el alumno ha de realizar una  API REST completa,   con   Spring Framework,   que   cumpla   con   los   requisitos   anteriormente planteados. 
 
-Deﬁne los endpoints necesarios para que el backend pueda cumplir con lo establecido, nutriendo las diferentes vistas de frontend. 
+ 
 
  Además de de lo mencionado anteriormente el alumno ha de incluir la siguiente funcionalidad: 
 
