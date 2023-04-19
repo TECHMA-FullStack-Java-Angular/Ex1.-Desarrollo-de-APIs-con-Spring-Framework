@@ -28,7 +28,7 @@ public class MessageController {
 		return messageService.showMessages();
 	}
 	
-	@GetMapping("/message/{id}")
+	@GetMapping("/message/party/{id}")
 	public List<Message> showPartyMessagesById(@PathVariable(name = "id") int id){
 		return messageService.findMessagePartyById(id);
 		
